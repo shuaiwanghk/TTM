@@ -6,7 +6,7 @@ A package for targeted topic modeling for focused analysis.
 2. Used for focused analysis purpose;
 3. By specifying the target (aspect) word to obtain its target-related topics
 
-We are glad if the package helps your projects or research. Please cite our paper with the following information. You are welcome to contact Shuai Wang (shuaiwanghk@gmail.com) if you have any problem.
+We are glad if the package helps your projects or research. Please cite our paper with the following information. You are welcome to contact Shuai Wang (shuaiwanghk@gmail.com) if you have any question.
 
 
 ## Publication
