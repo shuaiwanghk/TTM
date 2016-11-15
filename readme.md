@@ -63,7 +63,7 @@ The task file locates in task -> RunTTMwithOneSingleTask, which is for running a
 <b>(3) Multiple tasks/threads</b><br \>
 We also provide a multiple tasks/threads entry so that we can target at different aspects parallelly.The task file locates in task -> RunTTMwithMultiTasks, which is for running multiple tasks. 
 
-<a name="ouput"/>
+<a name="output"/>
 ## Output File
 An output file with targeted topic-word distribution will be generated in a file under data/output folder.
 
