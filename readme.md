@@ -58,7 +58,7 @@ c. tTopicNum (targeted topic number)<br \>
 Please refer to ProgramArgument.java for details.
 	
 <b>(2) Single task</b><br \>
-The task file locates in task -> RunTTMwithOneSingleTask, which is for running a single task. A corresponding model will be also saved.
+The task file locates in task -> Execute TTMwithOneSingleTask, which is for running a single task. A corresponding model will be also saved.
 	
 <b>(3) Multiple tasks/threads</b><br \>
 We also provide a multiple tasks/threads entry so that we can target at different aspects parallelly.The task file locates in task -> RunTTMwithMultiTasks, which is for running multiple tasks. 
