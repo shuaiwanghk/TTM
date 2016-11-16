@@ -23,11 +23,10 @@ Shuai Wang, Zhiyuan Chen, Geli Fei, Bing Liu and Sherry Emery, "**[Targeted Topi
 
 <b>(1) docs.txt</b><br />
 Every single file in a given (domain) corpus is arranged in the following format.<br />
-Line 1: #numOfSent. The number of sentences for one review (always one for a single tweet)<br />
-Line 2: dummy field (Just a placeholder. Not useful for modeling but still need to place it in the raw data. It was used for my debugging.) <br />
-Line 3 to (3+#numOfSent): content/text of a sentence. <br />
+Line 1: #numOfSent. The number of sentences for one review (always one for a tweet from Twitter)<br />
+Line 2: dummy field (Just a place holder. Not useful for modeling, but currently we still need to put it in the raw data. It was used for my debugging. Forgive me that I have not eliminated it. I might fix it and pull a new version later.) <br />
+Line 3 to (3+#numOfSent-1): content/text of a sentence. <br />
 (repeating the above format for all files)<br />
-A value is a word index from the wordlist.txt file.<br />
 
 <b>Example:</b><br />
 3 // number of sentence for review 1;<br />
@@ -40,6 +39,8 @@ A value is a word index from the wordlist.txt file.<br />
 3 4 // sentence 1 (in review 2)<br />
 5 8// sentence 2 (in review 2)<br />
 ....
+
+The values like "1 2 3", "4 5" are word indexes corresponding to line numbers in the wordlist.txt file.<br />
 
 <b>(2) wordlist.txt</b><br />
 a. This is a vocabulary file, which indexes words in a given domain.<br />
