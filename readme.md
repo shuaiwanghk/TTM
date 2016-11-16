@@ -79,11 +79,11 @@ Two files are provided. You should be able to run them (with libraries in the li
 	src -> launcher -> TTMMultipleTasksEntry
 
 <b>(2) Run in Terminal by command lines.</b><br />
-Under the ttm root directory in Windows:
+Under the TTM root directory in Windows:
 
 	java -cp bin;lib/* launcher.TTMSingleTaskEntry
 
-Under the ttm root directory in Unix/Linux:
+Under the TTM root directory in Unix/Linux:
 
 	java -cp bin:lib/* launcher.TTMSingleTaskEntry
 
